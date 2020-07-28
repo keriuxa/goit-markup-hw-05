@@ -348,7 +348,7 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: var(--secondary-text-color);
+  fill: #afb1b8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -372,13 +372,16 @@ img {
 }
 
 .clients-items > li {
-  border: 1px solid #afb1b8;
+  /* border: 1px solid #afb1b8;
   box-sizing: border-box;
-  border-radius: 4px;
+  border-radius: 4px; */
 }
 
 .clients-logo {
   fill: var(--secondary-text-color);
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .clients-logo:focus,
