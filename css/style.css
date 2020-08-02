@@ -67,7 +67,17 @@ img {
   color: var(--main-text-color);
   margin-right: 85px;
 }
-
+.navigation .curent > a {
+  color: var(--acent-color);
+}
+.curent::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: var(--acent-color);
+  border-radius: 10%;
+}
 .logo-web {
   font-family: Raleway;
   font-weight: 700;
@@ -387,6 +397,7 @@ img {
 .clients-logo:focus,
 .clients-logo:hover {
   fill: var(--acent-color);
+  border-color: var(--acent-color);
 }
 
 .clients-items > li:hover,
@@ -585,7 +596,7 @@ img {
   margin-bottom: 50px;
 }
 .portolio-buttons li:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .examples-list {
@@ -607,6 +618,11 @@ img {
   /* width: calc((100%-60px) / 3); */
   width: 370px;
 }
+.portfolio-text-box {
+  border: 1px solid #eeeeee;
+  width: 368;
+}
+
 .portfolio-items:hover,
 .portfolio-items:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -665,12 +681,11 @@ img {
   line-height: 156%;
   letter-spacing: 0.03em;
   background-color: rgba(33, 150, 243, 0.9);
-  top: 0;
+  top: 294px;
   left: 0;
   width: 100%;
   height: 100%;
   align-items: center;
-  padding-left: 24px;
 }
 
 .portfolio-items-text {
