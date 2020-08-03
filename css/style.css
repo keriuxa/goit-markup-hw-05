@@ -77,6 +77,8 @@ img {
   height: 4px;
   background-color: var(--acent-color);
   border-radius: 10%;
+  position: absolute;
+  bottom: 0px;
 }
 .logo-web {
   font-family: Raleway;
@@ -92,6 +94,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  position: relative;
 }
 
 .header-items a {
@@ -688,7 +691,13 @@ img {
   align-items: center;
 }
 
+.portfolio-text:hover,
+.portfolio-text:focus {
+  top: 0px;
+  transition-duration: 500ms;
+}
 .portfolio-items-text {
   position: relative;
   width: 100%;
+  overflow: hidden;
 }
