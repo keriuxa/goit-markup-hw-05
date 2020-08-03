@@ -118,6 +118,7 @@ img {
 .footer a:hover,
 .footer a:focus {
   color: var(--acent-color);
+  transition-duration: 250ms;
 }
 
 .header .list .contacts a {
@@ -136,6 +137,7 @@ img {
 .icon-header:hover,
 .icon-header:focus {
   fill: var(--acent-color);
+  transition-duration: 250ms;
 }
 .navigation {
   display: flex;
@@ -331,7 +333,7 @@ img {
 }
 
 .teammates {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -374,6 +376,7 @@ img {
 .social-icon:focus {
   fill: white;
   background-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 /* Постоянные клиенты */
 
@@ -382,12 +385,6 @@ img {
   justify-content: space-between;
   align-content: center;
   margin-bottom: 94px;
-}
-
-.clients-items > li {
-  /* border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px; */
 }
 
 .clients-logo {
@@ -401,11 +398,13 @@ img {
 .clients-logo:hover {
   fill: var(--acent-color);
   border-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 
 .clients-items > li:hover,
 .clients-items > li:focus {
   border-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 
 /* ФУТТЕР */
@@ -490,6 +489,7 @@ img {
 .footer-instagram:hover,
 .footer-instagram:focus {
   background-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 
 .footer-twitter {
@@ -506,6 +506,7 @@ img {
 .footer-twitter:hover,
 .footer-twitter:focus {
   background-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 .footer-facebook {
   display: inline-block;
@@ -521,6 +522,7 @@ img {
 .footer-facebook:hover,
 .footer-facebook:focus {
   background-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 .footer-linkedin {
   display: inline-block;
@@ -535,6 +537,7 @@ img {
 .footer-linkedin:hover,
 .footer-linkedin:focus {
   background-color: var(--acent-color);
+  transition-duration: 250ms;
 }
 
 .subscribe-section {
@@ -630,6 +633,7 @@ img {
 .portfolio-items:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
+  transition-duration: 250ms;
 }
 
 .logo-web-portfolio {
@@ -656,6 +660,7 @@ img {
   background-color: var(--acent-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
+  transition-duration: 250ms;
 }
 
 .portfolio-title {
@@ -694,7 +699,7 @@ img {
 .portfolio-text:hover,
 .portfolio-text:focus {
   top: 0px;
-  transition-duration: 500ms;
+  transition-duration: 250ms;
 }
 .portfolio-items-text {
   position: relative;
